@@ -75,7 +75,7 @@ export default function LoginPage() {
         className="text-white rounded-md border-spacing-3 p-2 border-red-400 bg-gradient-to-r from-yellow-300 to-cyan-400"
         onClick={onLogin}
       >
-        Login up
+        {buttonDisabled ? "Disabled" : "Login up"}
       </button>
       <Link
         className="bg-clip-text text-transparent text-bold text-2xl bg-gradient-to-r from-yellow-300 to-cyan-400"
